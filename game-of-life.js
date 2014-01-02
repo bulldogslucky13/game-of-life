@@ -1,7 +1,3 @@
-
-
-
-
 var user = prompt("What is your name?");
 
 var output_div = document.getElementById('output');
@@ -19,6 +15,8 @@ var current_cell;
 
 for ( current_row = 0; current_row < number_of_rows; current_row++ ) {
     grid.innerHTML = grid.innerHTML + '<div class="row">ROW ' + current_row + '</div>';
+    for ( current_column = 0; current_column < number_of_columns; current_column++ ) {
+    	grid.innerHTML = grid.innerHTML + '<div class="column">COLUMN ' + current_column + '</div>';
 
-
+	}
 }
