@@ -50,7 +50,7 @@ function playGeneration (){
 	prepareNextGeneration();
 	renderNextGeneration();
 
-	setTimeout('playGeneraton()', 200);
+	setTimeout('playGeneration()', 200);
 }
 
 function prepareNextGeneration() {
