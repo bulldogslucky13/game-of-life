@@ -1,4 +1,4 @@
-var user = prompt("What is your name?");
+var user = prompt("I know where you live?");
 
 var output_div = document.getElementById('output');
 output_div.innerHTML = "Welcome Master " + user + "! I am so glad you are here!";
